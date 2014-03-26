@@ -16,6 +16,6 @@ default_attributes(
     }
   },
   "riak_cluster_join" => {
-    "node-head" => "__string_STANCHIONIP"
+    "node-head" => "STANCHIONIP"
   }
 )

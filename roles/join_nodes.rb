@@ -1,7 +1,7 @@
-name "join_nodes"
-description "Recipe to join riak nodes."
+name "cluster_join"
+description "Recipe to join riak nodes to cluster."
 run_list(
-  "recipe[riak-join-nodes]"
+  "recipe[riak-cluster-join]"
 )
 
 default_attributes(
